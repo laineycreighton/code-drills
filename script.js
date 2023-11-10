@@ -34,8 +34,30 @@ function subtract() {
 };
 
 // CALLING THE FUNCITON //
-add(num1, num2);
+subtract(num1, num2);
 
 // DISPLAY ANSWER //
 const arithmetic2 = document.getElementById('arithmetic2');
 arithmetic2.textContent = subtract();
+
+
+
+//---------- MULTIPLY ----------//
+
+// VARIABLES //
+var num1 = 25;
+var num2 = 4;
+
+// FUNCTION //
+function multiply() {
+    var product = num1 * num2;
+    console.log(product);
+    return product;
+};
+
+// CALLING THE FUNCITON //
+multiply(num1, num2);
+
+// DISPLAY ANSWER //
+const arithmetic3 = document.getElementById('arithmetic3');
+arithmetic3.textContent = multiply();

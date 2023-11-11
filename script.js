@@ -77,3 +77,28 @@ function divide() {
 // DISPLAY ANSWER //
 const arithmetic4 = document.getElementById('arithmetic4');
 arithmetic4.textContent = divide();
+
+
+
+
+
+//********** ODD OR EVEN **********//
+
+//----- DIVIDE -----//
+
+// VARIABLES //
+var num = 10;
+
+// FUNCTION //
+function oddOrEven() {
+    if (num % 2 === 0) {
+        console.log("Odd or Even:");
+        return 'Even';
+    } else {
+        return 'Odd';
+    }
+};
+
+// DISPLAY ANSWER //
+const oddEven = document.getElementById('oddeven');
+oddEven.textContent = oddOrEven();

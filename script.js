@@ -84,8 +84,6 @@ arithmetic4.textContent = divide();
 
 //********** ODD OR EVEN **********//
 
-//----- DIVIDE -----//
-
 // VARIABLES //
 var num = 10;
 
@@ -102,3 +100,25 @@ function oddOrEven() {
 // DISPLAY ANSWER //
 const oddEven = document.getElementById('oddeven');
 oddEven.textContent = oddOrEven();
+
+
+
+
+
+//********** Log Nums **********//
+
+// VARIABLES //
+var num = 10;
+
+// FUNCTION //
+function logNums() {
+    var allNums = [];
+    for (i = 1; i <= num; i++){
+        allNums.push([i]);
+        console.log('Log Nums:');
+    } return allNums;
+};
+
+// DISPLAY ANSWER //
+const logNumsAnswer = document.getElementById('lognums');
+logNumsAnswer.textContent = logNums();
